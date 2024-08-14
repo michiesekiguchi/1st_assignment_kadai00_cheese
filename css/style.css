@@ -1,0 +1,116 @@
+/* ここから下に記載していく */
+.yellow-text {
+    color: #ffd61a;
+}
+
+.white-text {
+    color:white
+}
+
+h1 {
+    font-weight: bold; font-size: 24px; color: #222;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 18px; color: #222;
+    margin: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 16px; color: #222;
+    margin: 0.5em;
+}
+
+
+.gray {
+    background-color:#fafafa
+}
+
+div {
+    text-align: center;
+}
+
+
+
+
+
+/*--------header----------*/
+.nav {
+    display: flex;
+    padding: 50px;
+    font-size: 21px;
+    color: #222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    font-size: 21px;
+    color: #222;
+    align-items: center;
+    justify-content: center;
+}
+
+box {
+    
+}
+
+
+/*------------footer-----------*/
+footer {
+ width: 100%;
+ background-color: #707070;
+ font-size: 18px;
+}
+
+footer p {
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*------------img text-----------*/
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: #fff;
+    font-size: 4.8rem;
+    line-height: 1;
+    text-align: center;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 480px,480px;
+    grid-auto-rows: minmax(500,auto);
+    place-content: center;
+  }
+
+
