@@ -8,7 +8,7 @@
 
 ## ③DEMO
 
-デプロイしている場合はURLを記入（任意）
+https://michiesekiguchi.github.io/1st_assignment_kadai00_cheese/
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
